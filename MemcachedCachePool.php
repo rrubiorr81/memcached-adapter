@@ -37,7 +37,7 @@ class MemcachedCachePool extends AbstractCachePool implements HierarchicalPoolIn
     public function __construct(\Memcached $cache)
     {
         $this->cache = $cache;
-        $this->cache->setOption(\Memcached::OPT_BINARY_PROTOCOL, true);
+//        $this->cache->setOption(\Memcached::OPT_BINARY_PROTOCOL, true);
     }
 
     /**
